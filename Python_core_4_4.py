@@ -19,8 +19,6 @@ def phone_username(args, contacts):
     return contacts[name]
 
 def show_all(contacts):
-    # name, phone = args
-    # return contacts[{name}: {phone}]
     return "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
 
 def main():
