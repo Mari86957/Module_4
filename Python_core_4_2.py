@@ -1,8 +1,7 @@
 from pathlib import Path
 
-cats_info = []
-
 def get_cats_info(path):
+    cats_info = []
     try:
         with open("path.txt", "r", encoding='utf-8') as fh:
             for line in fh:
